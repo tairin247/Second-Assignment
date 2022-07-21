@@ -1,0 +1,114 @@
+/* for mobile devices  */
+ @media only screen and (min-width: 320px) and (max-width: 480px){
+     /* Common Styles */
+
+.container{
+      width: 100%;
+   }
+
+/* Header Section Starts   */
+
+.banner{ 
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 0;
+    margin-bottom: 1em;
+    border-radius: 0;   
+ }
+
+.banner-text{
+    padding: 1em;
+    height: 175px;
+ }
+ .banner-items h1{
+   font-size: 1.5em;
+   padding-bottom: .5em;
+ }
+.watch-button{
+    padding: .5vh 1.5vh;
+    font-size: .5em;
+ }
+
+ .banner-items p{
+    font-size: .7em;
+   margin-bottom: 1em;
+ }
+ .banner-items img{
+   top: 25px;
+ }
+
+ /* main starts here */
+ .football-news {
+    display: inline;
+  } 
+  
+  .navbar {
+    padding: 5px 10px;
+    max-width: 312px;
+    max-height: 215px;
+    margin: 0 auto;
+  } 
+  
+  .navbar ul li {
+    margin-bottom: 45px;
+  }
+  .upcoming-match {
+    padding: 1.5em 6em;
+  }
+  
+  .all-group {
+    padding: 1.5em 10em;
+  }
+  
+  .current-btn {
+    padding: 1.5em 11em;
+  } 
+
+  .blogs {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+  }
+  
+  .blog {
+    width:100%;
+    height: 312px;
+  }
+
+  .transfer-btn {
+    padding: 5px 20px;
+  }
+  
+  .blog h4 {
+    font-size: 14px;
+  }
+  
+  .thumbnail-details {
+    padding: 8px 10px;
+  }
+  
+  /* Footer section starts  */
+ footer {
+    height: 200px;
+  }
+  footer h1{
+    padding: .2em;
+  }
+  .footer-info{
+    padding-top: .2rem;
+  }
+  .footer-info a{
+    padding: .2em;
+  }
+  .social-sites{
+    padding-top: 1em;
+    text-align: center;
+  }
+  .social-sites p{
+    display: inline; 
+   }
+  .social-sites a{
+    color: skyblue;
+    padding-left: 1.5em;
+  }
+
+}
+
