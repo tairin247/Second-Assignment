@@ -1,0 +1,213 @@
+ /* Fonts  */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+ /* Common Styles */
+ * {
+  margin: 0;
+  padding: 0;
+}
+ body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+ }
+
+ .container{
+    max-width: 1200px;
+    margin: 0 auto;
+   
+ }
+
+
+ /* Header Section Starts   */
+
+ .banner{
+    background-color: #161616;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 4em;
+    margin-bottom: 6em;
+    border-radius: 2em;
+    max-height: 600px;
+    
+ }
+.banner-items{
+   /* border: 2px solid red; */
+
+}
+.banner-text{
+    color: white;
+    padding: 3em 2em 3em 5em;
+ }
+ .banner-items h1{
+   font-size: 3em;
+   padding-bottom: 1em;
+ }
+.watch-button{
+   color: white;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #980079 , #e94d8a);
+    padding: 1.5vh 3vh;
+    border-radius: 5px;
+    text-align: center;
+
+ }
+ .watch-button i{
+   padding-left: 5px;
+   transition: padding-left .5s ease-out;
+ }
+ .watch-button:hover i{
+   padding-left: 20px;
+ }
+ 
+
+ .banner-items p{
+   margin-bottom: 2.5em;
+ }
+ .banner-items img{
+   width: 75%;
+   height: 90%;
+   position: relative;
+   top: 50px;
+ }
+
+ /* Header Section Ends   */
+
+
+ /* main starts here */
+.football-news {
+  display: flex;
+  margin-bottom: 6em;
+}
+
+.navbar {
+  padding: 15px 20px;
+  background-color: #161616;
+  border-radius: 5px;
+  max-width: 312px;
+  height: 215px;
+  margin-right: 20px;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar ul li {
+  margin-bottom: 45px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  background: white;
+  color: black;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.upcoming-match {
+  display: flex;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+.all-group {
+  padding: 15px 54px;
+  border-radius: 5px;
+}
+
+.current-btn {
+  padding: 15px 69px;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #980079 , #e94d8a)!important;
+}
+
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.blog {
+  width: 312px;
+  height: 362px;
+  border: 1px solid #989898;
+  border-radius: 10px;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+.transfer-btn {
+  border: 1px solid #161616;
+  border-radius: 3px;
+  padding: 8px 25px;
+  background: white;
+  font-weight: 700;
+}
+
+.blog h4 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.thumbnail-details {
+  padding: 12px 18px;
+}
+
+.thumbnail-details h4 {
+  padding: 11px 0;
+}
+
+.thumbnail-info {
+  display: flex;
+  color: rgba(22, 22, 22, 0.7);
+}
+
+.blog-duration {
+  margin-right: 35px;
+}
+
+.far {
+  margin-right: 10px;
+}
+
+/* main ends here */
+
+/* view  all button */
+.view-all-btn {
+  padding: 11px 25px 11px 24px;
+  display: none;
+}
+
+ /* Footer section starts  */
+ footer {
+   text-align: center;
+   height: 275px;
+   background: #161616;
+   color: white;
+
+ }
+ footer h1{
+   padding: 1.5em;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+ }
+ .footer-info{
+   padding-top: 1.5rem;
+ }
+ .footer-info a{
+   text-decoration: none;
+   color: white;
+   padding: 1.5em;
+ }
+ .social-sites{
+   padding-top: 3em;
+   text-align: center;
+ }
+ .social-sites p{
+   display: inline; 
+  }
+ .social-sites a{
+   color: skyblue;
+   padding-left: 1.5em;
+ }
